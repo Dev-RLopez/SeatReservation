@@ -1,0 +1,721 @@
+:root{
+  --selected:#9a328b;
+}
+
+.button-label {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  padding-top: 15px;
+  cursor: pointer;
+  color: #292929;
+  border-radius: 0.4em;
+  background: #eae9e9;
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.20); */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.button-label h1 {
+  font-size: 11px;
+  font-family: "Lato", sans-serif;
+}
+.button-label:hover {
+  background: #d6d6d6;
+  color: #101010;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+}
+.button-label:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0px -1px 0 rgba(0, 0, 0, 0.20); */
+}
+
+
+#f1:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#f1:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#f2:checked + .button-label {
+    background: var(--selected);
+  color: #fff;
+}
+#f2:checked + .button-label:hover {
+    background: var(--selected);
+  color: #fff;
+}
+
+
+#f3:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#f3:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#f4:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#f4:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#f5:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f5:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f6:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f6:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f7:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f7:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f8:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f8:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f9:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f9:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f10:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f10:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f11:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f11:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f12:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f12:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f13:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f13:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f14:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f14:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f15:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f15:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f16:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f16:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f17:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f17:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f18:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f18:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f19:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f19:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f20:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f20:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f21:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f21:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f22:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f22:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f23:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f23:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#f24:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#f24:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+
+#m1:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#m1:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#m2:checked + .button-label {
+    background: var(--selected);
+  color: #fff;
+}
+#m2:checked + .button-label:hover {
+    background: var(--selected);
+  color: #fff;
+}
+
+
+#m3:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#m3:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#m4:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#m4:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#m5:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m5:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m6:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m6:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m7:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m7:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m8:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m8:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m9:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m9:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m10:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m10:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m11:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m11:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m12:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m12:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m13:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m13:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m14:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m14:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m15:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m15:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m16:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m16:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m17:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m17:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m18:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m18:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m19:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m19:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m20:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m20:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m21:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m21:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m22:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m22:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m23:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m23:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#m24:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#m24:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b1:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#b1:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#b2:checked + .button-label {
+    background: var(--selected);
+  color: #fff;
+}
+#b2:checked + .button-label:hover {
+    background: var(--selected);
+  color: #fff;
+}
+
+
+#b3:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#b3:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#b4:checked + .button-label {
+  background: var(--selected);
+  color: #fff;
+}
+#b4:checked + .button-label:hover {
+  background: var(--selected);
+  color: #fff;
+}
+
+#b5:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b5:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b6:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b6:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b7:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b7:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b8:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b8:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b9:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b9:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b10:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b10:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b11:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b11:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b12:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b12:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b13:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b13:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b14:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b14:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b15:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b15:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b16:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b16:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b17:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b17:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b18:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b18:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b19:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b19:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b20:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b20:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b21:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b21:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b22:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b22:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b23:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b23:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+#b24:checked + .button-label {
+background: var(--selected);
+  color: #fff;
+}
+#b24:checked + .button-label:hover {
+background: var(--selected);
+  color: #fff;
+}
+
+input[type="checkbox"][disabled] + label
+{
+    background-color:#555251;
+    color: #fff;
+
+    pointer-events: none;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.btn{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: black !important;
+  border: 2px solid #9a328b;
+  transition: 0.5s ease;
+  text-transform:uppercase;
+  font-size: 80%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color:  #9a328b !important;
+   border: 2px solid #9a328b;
+}

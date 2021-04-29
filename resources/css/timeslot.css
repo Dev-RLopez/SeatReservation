@@ -1,0 +1,155 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+header{
+min-height: 100vh;
+/* background-color: black; */
+/* background-image: linear-gradient(rgba(20, 20, 20, 0.69),rgba(20, 20, 20, 0.69)),url(../img/s2.jpg); */
+background-position: top;
+background-size: cover;
+}
+.cs{
+  width: 65%;
+}
+
+.cs-title{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 240%;
+}
+
+.sypnosis{
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  opacity: 0.7;
+}
+
+
+.cs-btn{
+  width: 65%;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 10px;
+  background-color:  #9a328b !important;
+  border: 2px solid #9a328b;
+  transition: 0.5s ease;
+  text-transform:uppercase;
+  font-size: 80%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cs-btn:hover{
+  text-decoration: none;
+  background-color:  #9a328b !important;
+   border: 2px solid #9a328b;
+}
+
+
+
+
+.cs-btn2{
+ width: 65%;
+ font-family: 'Roboto', sans-serif;
+ letter-spacing: 1px;
+ text-align: center;
+ margin-top: 10px;
+ background-color: #9a328b !important;
+ border: 2px solid #9a328b;
+ transition: 0.5s ease;
+ text-transform:uppercase;
+ font-size: 80%;
+ cursor: pointer;
+ font-weight: bold;
+}
+
+.cs-btn2:hover{
+  opacity: 0.8;
+  text-decoration: none;
+  background-color:  #9a328b !important;
+   border: 2px solid #9a328b;
+}
+
+.jumbotron{
+  background-color: transparent;
+}
+
+.img{
+  display: flex;
+  align-items: center;
+}
+
+
+.pg{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.header-showing{
+  color: #fff;
+  font-size: 300%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+
+.header-showing2{
+  color: #fff;
+  font-size: 300%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+select{
+  width: 50%;
+}
+
+label{
+  color: #fff;
+  font-size: 150%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.cancel{
+  text-decoration: none;
+  color: #fff;
+  font-size: 120%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+
+.cancel:hover{
+  text-decoration: none;
+  opacity: 1;
+  color: #fff;
+}
+
+.btn{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #9a328b !important;
+  border: 2px solid #9a328b;
+  transition: 0.5s ease;
+  text-transform:uppercase;
+  font-size: 80%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover{
+  opacity: 0.8;
+  text-decoration: none;
+  background-color:  #9a328b !important;
+   border: 2px solid #9a328b;
+}
